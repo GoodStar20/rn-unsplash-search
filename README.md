@@ -20,7 +20,7 @@ $ git clone https://github.com/GoodStar20/rn-unsplash-search.git
 ### Install dependencies
 
 ```bash
-$ cd react-native-elon-chat
+$ cd rn-unsplash-search
 $ yarn install
 ```
 
@@ -29,6 +29,7 @@ $ yarn install
 And then, run the app
 
 ```bash
+$ cd ios && pod install
 $ yarn ios
 ```
 
@@ -39,3 +40,8 @@ And then, run the app
 ```bash
 $ yarn android
 ```
+
+## How It Works
+
+- If you enter search keyword and press search button, you can see searched images.
+- If you press "Pin" icon, you can see "Pin" images in "Pinned" Tab.
